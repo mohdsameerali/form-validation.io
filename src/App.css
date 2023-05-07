@@ -1,0 +1,62 @@
+.container-fluid{
+    background-color: rgb(92, 94, 94);
+    height: 100vh;
+    /* color: white; */
+    color: white;
+}
+
+span{
+    color: red;
+}
+.butt{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+h3{
+    font-weight: bolder ;
+    text-decoration-line: underline;
+    color: violet;
+}
+#ADD{
+    margin-top: 30px;
+}
+.table{
+	font-size: 20px;
+}
+.main .btn{
+	font-size: 15px;
+   
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+@media screen and (max-width:480px ){                            
+	.container{
+				width: 50px;
+			   height: 0px;
+}
+
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: red;
+}
